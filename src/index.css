@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Personalización de estilos */
+body {
+  @apply bg-gray-100 text-gray-900;
+}
+
+/* Scrollbar oculto para elementos con desplazamiento */
+.scrollbar-hide {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* Efecto hover en botones */
+.button-hover:hover {
+  @apply bg-yellow-600 text-white;
+}
