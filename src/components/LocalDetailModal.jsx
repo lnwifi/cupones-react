@@ -15,7 +15,7 @@ const LocalDetailModal = ({ local, onClose }) => {
                     className="absolute top-4 right-4 text-gray-500 hover:text-red-500 transition">
                     <FaTimes size={24} />
                 </button>
-
+                
                 {/* Imagen del Local */}
                 <div className="overflow-hidden rounded-lg">
                     <img src={local.image || "https://via.placeholder.com/600x300"} alt={local.title} className="w-full h-48 object-cover rounded-lg" />
